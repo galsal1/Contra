@@ -1,0 +1,17 @@
+.newtral_comment {
+  position: absolute;
+  background: lightyellow;
+  padding: 1em;
+  border-radius: 0.3em;
+  right: 10em;
+  top: 12em;
+  z-index: 1000;
+  max-width: 25vw;
+  box-shadow: 3px 3px 7px gray;
+}
+
+.newtral_comment::before {
+  content: 'Contra';
+  display: block;
+  font-size: 1.5em;
+}
